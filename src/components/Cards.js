@@ -31,14 +31,14 @@ function Cards() {
             />
             <CardItem
               src='images/Mole-Entrance.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure' 
+              text='Visit us in mole National park to see wild animlas'
+              label='Mole National park' 
               path='/products'
             />
             <CardItem
               src='images/kwahu.jpg'
-              text=''
-              label='Adventure'
+              text='Experience Football on Top of the Kwahu Mountains'
+              label='Kwahu Mountains'
               path='/sign-up'
             />
           </ul>

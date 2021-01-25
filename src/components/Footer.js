@@ -52,9 +52,10 @@ function Footer() {
           </div> */}
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link href='www.codetraingh.com'>Instagram</Link>
-            <Link to='/'>travelghana@facebook</Link>
-            <Link to='/'>travelgh@twittwrwitter</Link>
+            <a target="_blank" href="https://www.instagram.com/abla_shika/">Instagram</a>
+            <a target="_blank" href="https://www.instagram.com/abla_shika/">Twitter</a>
+            <a target="_blank" href="https://www.instagram.com/abla_shika/">facebook</a>
+            
           </div>
         </div>
       </div>
@@ -68,30 +69,43 @@ function Footer() {
           </div>
           <small class='website-rights'>TRIPGH © 2020</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
+           
+            <a target="_blank" href="https://www.instagram.com/abla_shika/"
+            class='social-icon-link facebook'
+            to='/'
+            target='_blank'
+            aria-label='Facebook'>
+            <i class='fab fa-facebook-f' />
+            </a>
+
+           
+
+           <a target="_blank" href="https://www.instagram.com/abla_shika/"
+            class='social-icon-link instagram'
+            to='/'
+            target='_blank'
+            aria-label='Instagram'
+           >
+            <i class='fab fa-instagram' />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/abla_shika/"
+             class='social-icon-link youtube'
+             to='/'
+             target='_blank'
+             aria-label='Youtube'
+           >
+            <i class='fab fa-youtube' />
+            </a>
+
+            
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link twitter'
               to='/'
